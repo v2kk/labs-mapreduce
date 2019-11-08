@@ -1,7 +1,7 @@
-# Wordcount Example
+# New Users Example
 
 ## Objectives of this labs
-- Count the frequency of words in files
+- Count number of new register users from stackoverflow
 
 ## Environment
 - [Java]()
@@ -12,5 +12,11 @@
 - Please, remove folder `output` inside project root folder if existed
 
 ```
-mvn install exec:java -Dexec.mainClass="vn.fpt.App" -Dexec.args="./input ./output"
+mvn install exec:java -Dexec.mainClass="vn.fpt.NewUsersCalc" -Dexec.args="./input ./output"
+```
+
+- Run plain java
+
+```
+mvn install exec:java -Dexec.mainClass="vn.fpt.NewUsersJava"
 ```
