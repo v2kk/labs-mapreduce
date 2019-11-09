@@ -2,10 +2,25 @@
 
 ## Objectives of this labs
 - Count the frequency of words in files
+- How to run MapReduce on local machine
+- How to submit MapReduce on cluster
+- How to check if it's running
 
 ## Environment
 - [Java]()
 - [Maven](https://www.mkyong.com/maven/how-to-install-maven-in-windows/)
+
+## Clone source code
+
+```
+git clone https://github.com/vinhdangphuc/labs-mapreduce.git
+```
+
+Move to wordcount folder
+
+```
+cd labs-mapreduce/wordcount/
+```
 
 ## Run Local
 
@@ -17,7 +32,7 @@ mvn install exec:java -Dexec.mainClass="vn.fpt.App" -Dexec.args="./input ./outpu
 
 ## Run on Hadoop
 
-### Build jar package
+### Build executable jar using maven
 
 ```
 mvn package
@@ -42,6 +57,10 @@ scp target/wordcount-1.0-SNAPSHOT.jar member1@118.68.170.134:~/
 ### Submit job on cluster
 
 Login in to dev cluster using provided user and password
+
+```
+ssh member1@118.68.170.134
+```
 
 And execute command
 
