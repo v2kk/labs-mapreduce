@@ -6,9 +6,9 @@
 - How to submit MapReduce on cluster
 - How to check if it's running
 
-## Environment
-- [Java]()
-- [Maven](https://www.mkyong.com/maven/how-to-install-maven-in-windows/)
+## Required Environment
+- [Java](!https://github.com/vinhdangphuc/hands-on/blob/master/hands-on/java.md)
+- [Maven](!https://github.com/vinhdangphuc/hands-on/blob/master/hands-on/maven.md)
 
 ## Clone source code
 
