@@ -56,7 +56,7 @@ scp target/wordcount-1.0-SNAPSHOT.jar member1@118.68.170.134:~/
 
 ### Submit job on cluster
 
-Login in to dev cluster using provided user and password
+Login into dev cluster using provided user and password
 
 ```
 ssh member1@118.68.170.134
