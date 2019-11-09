@@ -86,7 +86,7 @@ Queue(s) Containers: 1 allocated, 0 pending, 0 reserved
 
 ```
 
-Check id existed in [Resource Manager UI](!http://118.68.170.134:8088/cluster)
+Check id existed in [Resource Manager UI](http://118.68.170.134:8088/cluster)
 
 Finally, check the output
 
